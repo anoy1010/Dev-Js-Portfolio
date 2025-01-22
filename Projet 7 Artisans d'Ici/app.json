@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "artisansdici",
+    "slug": "artisansdici",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "artisansdici"
+}

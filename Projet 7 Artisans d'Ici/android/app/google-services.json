@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386814027399",
+    "project_id": "artisansdici-b963c",
+    "storage_bucket": "artisansdici-b963c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386814027399:android:5d92927723bd0017edfa22",
+        "android_client_info": {
+          "package_name": "com.artisansdici2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386814027399-04q21pkga4invsgbgviqjff4s0lmc5an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artisansdici2",
+            "certificate_hash": "d30f6eeaa1ccb3a19f388cce499b780761604c5e"
+          }
+        },
+        {
+          "client_id": "386814027399-dvi66oobi48kgc081pom7nr465b20hsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXEeNg9PDWhrreo0eLP1SMQkL7eE3JSs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386814027399-dmf3slrsmeqc6kc6s522m5hdn8t6h68a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6580569087131534~5637974564"
+    }
+  ],
+  "configuration_version": "1"
+}

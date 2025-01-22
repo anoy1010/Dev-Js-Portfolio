@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"Les Artisans d'ici"</string>
+    <string name="facebook_app_id">3404760196403783</string>
+    <string name="facebook_client_token">8225a1718bc34c579ff353d4025c1309</string>
+</resources>

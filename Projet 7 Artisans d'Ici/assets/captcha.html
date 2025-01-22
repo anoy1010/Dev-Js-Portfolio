@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Entering captcha</title>
+</head>
+
+<body>
+    <p style="text-align: center; font-size: 1.2em;">Please, enter captcha for continue</p>
+        <button id="continue-btn" style="display:none">Continue to app</button>
+
+        <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAFHmJUcUngVZ8T62PovQG64qkJzAEfqI0",
+                authDomain: "artisansdici-b963c.firebaseapp.com",
+                projectId: "artisansdici-b963c",
+                storageBucket: "artisansdici-b963c.appspot.com",
+                messagingSenderId: "386814027399",
+                appId: "1:386814027399:web:d314eea70b0c3393edfa22",
+                measurementId: "G-Q61Y9VT61N"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <script>
+            function getToken(callback) {
+                var container = document.createElement('div');
+                container.id = 'captcha';
+                document.body.appendChild(container);
+                var captcha = new firebase.auth.RecaptchaVerifier('captcha', {
+                    'size': 'normal',
+                    'callback': function (token) {
+                        callback(token);
+                    },
+                    'expired-callback': function () {
+                        callback('');
+                    }
+                });
+                captcha.render().then(function () {
+                    captcha.verify();
+                });
+            }
+            function sendTokenToApp(token) {
+                var baseUri = decodeURIComponent(location.search.replace(/^\?appurl\=/, ''));
+                const finalUrl = location.href = baseUri + '/?token=' + encodeURIComponent(token);
+                const continueBtn = document.querySelector('#continue-btn');
+                console.log(finalUrl);
+                // continueBtn.onclick = (event)=>{
+                //     window.open(finalUrl,'_blank')
+                // }
+                continueBtn.style.display = "block";
+            }
+            document.addEventListener('DOMContentLoaded', function () {
+                getToken(sendTokenToApp);
+            });
+        </script>
+</body>
+
+</html>
