@@ -30,7 +30,7 @@ Conception de systèmes de messagerie intégrés et en temps réel.
 
 # PRESENTATION
 
-Projet 1 : Gestion de Factures - CRUD App avec TypeScript, Prisma, et Clerk
+# Projet 1 : Gestion de Factures - CRUD App avec TypeScript, Prisma, et Clerk
 
 Bienvenue dans ce projet de gestion de factures, une application web moderne et responsive conçue avec TypeScript et Next.js. Ce projet met en œuvre des fonctionnalités essentielles pour créer, lire, mettre à jour et supprimer des factures, tout en offrant une expérience utilisateur fluide et intuitive.
 
@@ -69,7 +69,7 @@ Téléchargement facile des factures en PDF.
 
 
 
-Projet 2 : Présentation des Services d'Entreprise - Site Web Moderne
+# Projet 2 : Présentation des Services d'Entreprise - Site Web Moderne
 
 Ce projet est un site web conçu pour mettre en avant les services d'une entreprise avec un design moderne, des animations fluides et une navigation intuitive. Ce site offre une expérience utilisateur optimale grâce à une combinaison puissante de technologies front-end.
 
@@ -109,7 +109,7 @@ Section contact pour permettre aux visiteurs de poser des questions ou de demand
 
 
 
-Projet 3 : Estimateur de Revenus et Intégration Stripe - Application Next.js
+# Projet 3 : Estimateur de Revenus et Intégration Stripe - Application Next.js
 Ce projet a été développé pour une entreprise afin de fournir un estimateur de revenus intégré à un processus de validation des paiements via Stripe. L'application combine des technologies modernes pour offrir une solution robuste et performante.
 
 Points forts du projet
@@ -148,7 +148,7 @@ Un estimateur dynamique pour fournir une valeur en temps réel.
 Un workflow de paiement Stripe pour tester les transactions et valider les scénarios de paiement.
 Une base de données hybride pour stocker et gérer efficacement toutes les données.
 
-Projet 4 :     Site de Présentation de Safer - Sécurité Électronique
+# Projet 4 :     Site de Présentation de Safer - Sécurité Électronique
 Ce projet a été conçu pour l'entreprise Radiant afin de mettre en avant son service de sécurité électronique, Safer. Le site offre une présentation claire et moderne des solutions proposées. Actuellement, le site est en mode maintenance pour des travaux internes visant à améliorer son contenu et ses fonctionnalités.
 
 
@@ -185,7 +185,7 @@ Design minimaliste pour une navigation claire et intuitive.
 Transitions fluides entre les pages grâce à Framer Motion.
 
 
-Projet 5 : Site Web pour une Organisation Caritative
+# Projet 5 : Site Web pour une Organisation Caritative
 Ce projet est un site web conçu pour une organisation caritative. Il a pour objectif de présenter l’organisation, ses missions, et ses valeurs, tout en facilitant le recrutement de bénévoles grâce à un système d'enregistrement en ligne.
 
 Points forts du projet
@@ -223,7 +223,7 @@ Gestion des données : Les informations des bénévoles sont sauvegardées dans 
 
 
 
-Projet 6 :   Application Mobile de Covoiturage
+# Projet 6 :   Application Mobile de Covoiturage
 Ce projet est une application mobile conçue pour faciliter le covoiturage entre utilisateurs. L'objectif principal était de développer une interface front-end moderne et intuitive avec React Native et Expo.
 
 Points forts du projet
@@ -258,7 +258,7 @@ Aperçu
 Écran de profil utilisateur 
 
 
-Projet 7 : Application Mobile pour les Artisans de Côte d’Ivoire
+# Projet 7 : Application Mobile pour les Artisans de Côte d’Ivoire
 Ce projet est une application mobile destinée aux artisans de Côte d’Ivoire. Elle vise à leur permettre de promouvoir leurs activités et de se faire connaître auprès du grand public grâce à un système digitalisé. L'application offre un espace centralisé pour connecter artisans et clients de manière fluide et efficace.
 
 Points forts du projet
