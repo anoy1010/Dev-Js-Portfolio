@@ -36,3 +36,39 @@ Créer et gérer vos factures n'a jamais été aussi simple ! Voici un aperçu d
 Authentification sécurisée pour protéger vos données.
 Une interface conviviale pour créer et modifier vos factures.
 Téléchargement facile des factures en PDF.
+
+
+Projet 2 : Présentation des Services d'Entreprise - Site Web Moderne
+
+Ce projet est un site web conçu pour mettre en avant les services d'une entreprise avec un design moderne, des animations fluides et une navigation intuitive. Ce site offre une expérience utilisateur optimale grâce à une combinaison puissante de technologies front-end.
+
+🌟 Points forts du projet
+Design professionnel et moderne :
+Le site est construit avec Material Design et TailwindCSS, offrant une interface propre et visuellement attrayante.
+
+Animations immersives :
+Utilisation de Framer Motion pour ajouter des animations fluides, apportant une dimension interactive et engageante.
+
+Compatibilité et performance :
+Le site est optimisé pour une navigation rapide et une expérience utilisateur fluide, sur tous les appareils (ordinateurs, tablettes, smartphones).
+
+🛠️ Technologies utilisées
+Frontend
+Next.js : Pour une architecture modulaire et un développement rapide.
+JavaScript : Pour un code dynamique et réactif.
+TailwindCSS : Pour une personnalisation rapide et un design responsive.
+Material Design : Pour des composants modernes et une interface utilisateur cohérente.
+Animation
+Framer Motion : Intégration d'animations pour enrichir l'expérience utilisateur et captiver l'attention des visiteurs.
+✨ Fonctionnalités clés
+Présentation des services : Une structure claire et intuitive pour présenter chaque service en détail.
+Design responsive : Le site s'adapte parfaitement à tous les types d'écrans.
+Animations engageantes : Des transitions et des effets animés qui rendent la navigation fluide et agréable.
+SEO-Friendly : Optimisation pour les moteurs de recherche afin de maximiser la visibilité en ligne.
+
+Aperçu
+Ce site a été pensé pour offrir une navigation intuitive et une mise en valeur claire des services de l'entreprise :
+
+Page d'accueil captivante avec animations pour engager les visiteurs dès leur arrivée.
+Présentation détaillée des services, accompagnée d'images et d'icônes personnalisées.
+Section contact pour permettre aux visiteurs de poser des questions ou de demander un devis.
